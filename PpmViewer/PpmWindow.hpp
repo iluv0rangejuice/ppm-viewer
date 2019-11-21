@@ -85,7 +85,7 @@ public:
 	{
 		_doc = doc;
 		_image_box->image(new Fl_RGB_Image(&_doc->getRawBytes()[0], _doc->getWidth(), _doc->getHeight(), 3));
-		int width = max(MIN_WIDTH, _doc->getWidth());
+		int width = max(200, _doc->getWidth());
 		size(width, _doc->getHeight() + MENU_HEIGHT);
 		_image_box->size(width, _doc->getHeight());
 		_image_box->position(0, MENU_HEIGHT);
