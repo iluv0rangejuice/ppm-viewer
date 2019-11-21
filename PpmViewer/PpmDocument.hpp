@@ -42,7 +42,7 @@ private:
 	{
 		if (stream.good() == false && stream.eof() == false)
 		{
-			throw exception{ "Invalid PPM spec" };
+			//throw exception{ "Invalid PPM spec" };
 		}
 	}
 

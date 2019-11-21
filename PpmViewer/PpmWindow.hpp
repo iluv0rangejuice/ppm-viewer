@@ -56,7 +56,7 @@ private:
 		Fl_Widget* p = widget->parent();
 		while (p->parent()) p = p->parent();
 		PpmWindow* window = (PpmWindow*)p;
-		ImageEffectType effect_type = (ImageEffectType)(int)params;
+		ImageEffectType effect_type = (ImageEffectType)(long long)params;
 		ImageEffect* effect = EffectFactory::createEffect(effect_type);
 		effect->applyEffect(*window->getActiveDocument());
 		window->loadImage();
@@ -89,7 +89,7 @@ public:
 		_image_box->image(_image);
 
 		//resize
-		int width = max(MIN_WIDTH, _doc->getWidth());
+		int width = max(200, _doc->getWidth());
 		size(width, _doc->getHeight() + MENU_HEIGHT);
 		_image_box->size(width, _doc->getHeight());
 		_image_box->position(0, MENU_HEIGHT);

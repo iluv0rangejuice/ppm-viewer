@@ -2,13 +2,13 @@
 #include "FltkIncludes.h"
 #include "FileHelpers.hpp"
 
-#include <filesystem>
+//#include <filesystem>
 #include <string>
 using namespace std;
 
 //see https://stackoverflow.com/questions/50668814/vs2017-e0135-namespace-std-has-no-member-filesystem
 //for forcing C++ 17 in VS 2019
-namespace fs = std::filesystem;
+
 
 enum class FileResult
 {
@@ -26,15 +26,7 @@ private:
 public:
 	FileBrowser(string starting_path = "")
 	{
-		if (starting_path.length() == 0)
-		{
-			fs::path current_path{ fs::current_path() };
-			string _starting_path = current_path.string();
-		}
-		else
-		{
-			_starting_path = starting_path;
-		}
+		_starting_path = starting_path;
 	}
 
 	FileResult OpenFileBrowser()
