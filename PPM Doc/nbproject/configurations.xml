@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>EffectChaining.cpp</itemPath>
+      <itemPath>EffectFactory.hpp</itemPath>
+      <itemPath>FileBrowser.hpp</itemPath>
+      <itemPath>FileHelpers.cpp</itemPath>
+      <itemPath>FileHelpers.hpp</itemPath>
+      <itemPath>GrayscaleEffect.hpp</itemPath>
+      <itemPath>HighContrastEffect.hpp</itemPath>
+      <itemPath>ImageEffect.hpp</itemPath>
+      <itemPath>NegateBlueEffect.hpp</itemPath>
+      <itemPath>NegateGreenEffect.hpp</itemPath>
+      <itemPath>NegateRedEffect.hpp</itemPath>
+      <itemPath>Pixel.hpp</itemPath>
+      <itemPath>PpmDocument.hpp</itemPath>
+      <itemPath>PpmWindow.hpp</itemPath>
+      <itemPath>RGB.ppm</itemPath>
+      <itemPath>RandomNoiseEffect.hpp</itemPath>
+      <itemPath>RemoveBlueEffect.hpp</itemPath>
+      <itemPath>RemoveGreenEffect.hpp</itemPath>
+      <itemPath>RemoveRedEffect.hpp</itemPath>
+      <itemPath>bunny.ppm</itemPath>
+      <itemPath>FL/math.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lfltk</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="EffectChaining.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EffectFactory.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FL/math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileBrowser.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileHelpers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileHelpers.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GrayscaleEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HighContrastEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ImageEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateBlueEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateGreenEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateRedEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PpmDocument.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PpmWindow.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RGB.ppm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomNoiseEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveBlueEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveGreenEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveRedEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bunny.ppm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="EffectChaining.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EffectFactory.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FL/math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileBrowser.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileHelpers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileHelpers.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GrayscaleEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HighContrastEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ImageEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateBlueEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateGreenEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NegateRedEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PpmDocument.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PpmWindow.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RGB.ppm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomNoiseEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveBlueEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveGreenEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveRedEffect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bunny.ppm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
